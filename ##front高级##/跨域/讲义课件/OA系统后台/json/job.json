@@ -1,0 +1,50 @@
+[{
+	"id": 1,
+	"name": "管理员",
+	"desc": "系统最高权限拥有者",
+	"power": "userhandle|departhandle|jobhandle|departcustomer|allcustomer|resetpassword",
+	"time": 1568640222269,
+	"state": 0
+}, {
+	"id": 2,
+	"name": "销售部经理",
+	"desc": "销售部门最高权限拥有者",
+	"power": "departcustomer",
+	"time": 1568640222269,
+	"state": 0
+}, {
+	"id": 3,
+	"name": "销售部员工",
+	"desc": "销售部门基层员工",
+	"power": "",
+	"time": 1568640222269,
+	"state": 0
+}, {
+	"id": 4,
+	"name": "产品研发部经理",
+	"desc": "产品研发部门最高权限拥有者",
+	"power": "departcustomer",
+	"time": 1568640222269,
+	"state": 0
+}, {
+	"id": 5,
+	"name": "产品研发部员工",
+	"desc": "产品研发部门基层员工",
+	"power": "",
+	"time": 1568640222269,
+	"state": 0
+}, {
+	"id": 6,
+	"name": "后勤部经理",
+	"desc": "后勤部门最高权限拥有者",
+	"power": "userhandle|departhandle|jobhandle|departcustomer|resetpassword",
+	"time": 1568640222269,
+	"state": 0
+}, {
+	"id": 7,
+	"name": "后勤部员工",
+	"desc": "后勤部门基层员工",
+	"power": "userhandle",
+	"time": 1568640222269,
+	"state": 0
+}]

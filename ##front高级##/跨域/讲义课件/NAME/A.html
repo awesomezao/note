@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+	<title>珠峰培训 - 微信：18310612838</title>
+	<!-- IMPORT CSS -->
+</head>
+
+<body>
+	<iframe src="http://127.0.0.1:1002/NAME/B.html" id="iframe" style="display: none;"></iframe>
+	<!-- IMPORT JS -->
+	<script>
+		let count = 0;
+		iframe.onload = function () {
+			if (count === 0) {
+				//=>需要我们先把地址重新指向到同源中才可以
+				iframe.src = 'http://127.0.0.1:1001/NAME/proxy.html';
+				count++;
+				return;
+			}
+			console.log(iframe.contentWindow.name);
+		}
+	</script>
+</body>
+
+</html>
